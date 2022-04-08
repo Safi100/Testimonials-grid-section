@@ -26,3 +26,42 @@ body{
     font-size: var(--font-size);
     font-family: var(--font);
 }
+img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid var(--Light-gray);
+}
+/* .row-span{
+    grid-row: span 2;
+} */
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.container{
+    padding: 50px 0 20px 0;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+}
+.col{
+    background: rgb(55, 55, 163);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.user_name{
+    font-weight: 600;
+    color: var(--White);
+}
+.user_status{
+    color: var(--White);
+    opacity: 0.5;
+}
